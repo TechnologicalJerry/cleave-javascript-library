@@ -14,3 +14,10 @@ var cleave = new Cleave('.input-element', {
     blocks: [3, 3, 3, 2],
     uppercase: true
 });
+
+var cleave = new Cleave('.input-element', {
+    prefix: 'PREFIX',
+    delimiter: '-',
+    blocks: [6, 4, 4, 4],
+    uppercase: true
+});
