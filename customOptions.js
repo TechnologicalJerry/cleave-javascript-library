@@ -8,3 +8,9 @@ var cleave = new Cleave('.input-element', {
     blocks: [3, 3, 3],
     uppercase: true
 });
+
+var cleave = new Cleave('.input-element', {
+    delimiters: ['.', '.', '-'],
+    blocks: [3, 3, 3, 2],
+    uppercase: true
+});
