@@ -4,17 +4,14 @@ import Cleave from 'cleave.js/react';
 
 class MyComponent extends React.Component {
     onChange(event) {
-        // formatted pretty value
-        console.log(event.target.value);
-
-        // raw value
-        console.log(event.target.rawValue);
+        console.log('Formatted Pretty Value ::', event.target.value);
+        console.log('Raw Value ::', event.target.rawValue);
     }
 
     render() {
         return (
             <Cleave placeholder="Enter your credit card number"
-                options={{creditCard: true}}
+                options={{ creditCard: true }}
                 onChange={this.onChange.bind(this)} />
         );
     }
